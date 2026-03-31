@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Layout from "./assets/layout/layout";
+import Layout from "./assets/layout/Layout";
 import Home from "./assets/pages/Home";
 import MuseHub from "./assets/pages/MuseHub";
 import Trisa from "./assets/pages/Trisa";
