@@ -1,9 +1,8 @@
-import React from "react";
 import { Outlet, useLocation } from "react-router-dom";
-import Navbar from "../components/global/Navbar";
-import Footer from "../components/global/Footer";
+import Navbar from "../global/Navbar";
+import Footer from "../global/Footer";
 
-const Layout = () => {
+const PageLayout = () => {
   const location = useLocation();
 
   const hideIcon = location.pathname.startsWith("/Project");
@@ -19,4 +18,4 @@ const Layout = () => {
   );
 };
 
-export default Layout;
+export default PageLayout;
