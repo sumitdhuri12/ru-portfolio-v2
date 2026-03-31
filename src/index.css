@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: auto !important;
+}
+
+@font-face {
+  font-family: "Geist";
+  src: url("/fonts/Geist-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair";
+  src: url("/fonts/PlayfairDisplay-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@theme {
+  /* Fonts */
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Geist", sans-serif;
+  --font-secondary: "Playfair", sans-serif;
+
+  /* Colors */
+  /* --color-title: #013371;
+  --color-para: #9fa1a4; */
+  --color-secondary: #252525;
+  --color-body-bg: #232323;
+  --color-body-text: #d1d1d1;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 14s linear infinite;
+}
