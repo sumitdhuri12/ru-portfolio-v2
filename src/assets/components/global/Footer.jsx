@@ -18,7 +18,7 @@ const Footer = () => {
         </p>
 
         <a
-          href="mailto:rutujasawant1998@gmail.com"
+          href="mailto:rutuja.sawant.work@gmail.com"
           className="text-xl sm:text-2xl md:text-3xl lg:text-[48px] inline-block break-all"
         >
           rutuja.sawant.work@gmail.com

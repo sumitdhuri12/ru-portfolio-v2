@@ -30,9 +30,7 @@ const SkillSection = () => {
         "HTML, CSS, JavaScript",
         "Developer handoff",
         "Design-to-code collaboration",
-        "ChatGPT",
-        "Gemini",
-        "Banani",
+        "ChatGPT, Gemini, Banani AI, Claude AI",
       ],
     },
   ];

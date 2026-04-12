@@ -46,10 +46,23 @@ const CaseStudy = () => {
         </div>
 
         {/* View Case Study Button */}
-        <div className="mt-10 md:mt-20 flex justify-center md:justify-end">
-          <button className="rounded-md border border-white px-6 py-3 text-lg md:text-xl transition-colors hover:bg-white hover:text-body-bg md:px-8 md:py-4">
+        <div className="mt-10 md:mt-20 flex flex-col md:flex-row justify-center md:justify-end gap-6 items-center">
+          <a
+            href="https://www.figma.com/proto/68JPHCvWaM4A1ZgSbiR4YN/HighFi-Design-MuseHub?node-id=1-25&t=r0YyHYgWP6WrdDO1-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A25"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="min-w-55 inline-block rounded-md border border-white px-6 py-3 text-lg text-center md:text-xl transform transition-transform duration-300 ease-out hover:scale-105 md:px-8 md:py-4"
+          >
+            View Prototype
+          </a>
+          <a
+            href="https://docs.google.com/presentation/d/1c4aSN_I-jY6FLDSKDTznH2yJkiAKFPiDldKTI3hs5pY/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="min-w-55 inline-block rounded-md border border-white px-6 py-3 text-lg md:text-xl bg-white text-body-bg transform transition-transform duration-300 ease-out hover:scale-105 md:px-8 md:py-4"
+          >
             View full case study
-          </button>
+          </a>
         </div>
       </div>
     </section>

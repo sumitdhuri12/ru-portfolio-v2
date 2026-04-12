@@ -2,12 +2,14 @@ import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import { Link } from "react-router-dom";
+import usePageTransition from "../../hooks/usePageTransition";
 
 gsap.registerPlugin(ScrollToPlugin);
 
 const Navbar = ({ hideIcon }) => {
   const [open, setOpen] = useState(false);
   const menuRef = useRef(null);
+  const goTo = usePageTransition();
 
   useEffect(() => {
     gsap.set(window, { scrollTo: { y: window.scrollY } });
@@ -47,10 +49,11 @@ const Navbar = ({ hideIcon }) => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex flex-col gap-2">
-          <div className="h-auto w-14 md:w-28 relative">
-            <Link to="/">
-              <img className="" src="/images/logo.png" alt="" />
-            </Link>
+          <div
+            onClick={() => goTo("/")}
+            className="h-auto w-14 md:w-28 relative cursor-pointer"
+          >
+            <img className="" src="/images/logo.png" alt="" />
           </div>
         </div>
 
@@ -157,10 +160,19 @@ const Navbar = ({ hideIcon }) => {
                     className="block text-lg md:text-2xl font-bold"
                     onClick={(e) => {
                       e.preventDefault();
+                      scrollToSection("projects");
+                    }}
+                  >
+                    PROJECTS
+                  </a>
+                  <a
+                    className="block text-lg md:text-2xl font-bold"
+                    onClick={(e) => {
+                      e.preventDefault();
                       scrollToSection("skills");
                     }}
                   >
-                    SKILLS & CAPABILITIES
+                    SKILLS
                   </a>
                   {/* <a className="block text-lg md:text-2xl font-bold">
                     CASE STUDIES

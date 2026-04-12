@@ -10,8 +10,8 @@ function App() {
       {/* <Route path="/" element={<Layout />}> */}
       <Route path="/" element={<PageLayout />}>
         <Route index element={<Home />} />
-        <Route path="Project/MuseHub" element={<MuseHub />} />
-        <Route path="Project/Trisa" element={<Trisa />} />
+        <Route path="projects/musehub" element={<MuseHub />} />
+        {/* <Route path="Project/Trisa" element={<Trisa />} /> */}
       </Route>
     </Routes>
   );
