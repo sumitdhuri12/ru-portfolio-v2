@@ -18,7 +18,7 @@ const Projects = () => {
           className="aspect-square 
                 bg-[url('/images/projects/bg-project.png')] 
                 bg-cover bg-center 
-                flex flex-col overflow-hidden cursor-pointer"
+                flex flex-col overflow-hidden cursor-pointer transform transition-transform duration-300 ease-out hover:scale-102"
         >
           {/* Image Section */}
           <div className="flex-1 flex items-center justify-center p-6 min-h-0">
