@@ -11,7 +11,7 @@ function App() {
       <Route path="/" element={<PageLayout />}>
         <Route index element={<Home />} />
         <Route path="projects/musehub" element={<MuseHub />} />
-        <Route path="projects/trisa" element={<Trisa />} />
+        <Route path="projects/saas-dashboard" element={<Trisa />} />
       </Route>
     </Routes>
   );

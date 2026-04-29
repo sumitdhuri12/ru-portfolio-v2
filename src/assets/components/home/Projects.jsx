@@ -17,7 +17,7 @@ const Projects = () => {
           onClick={() => goTo("/projects/musehub")}
           className="aspect-square 
                 bg-[url('/images/projects/bg-project.png')] 
-                bg-cover bg-center 
+                bg-cover bg-center rounded-lg
                 flex flex-col overflow-hidden cursor-pointer transform transition-transform duration-300 ease-out hover:scale-102"
         >
           {/* Image Section */}
@@ -31,35 +31,35 @@ const Projects = () => {
 
           {/* Text Section */}
           <div className="text-secondary bg-white/20 px-4 md:px-8 py-3 md:py-6 shrink-0">
-            <h3 className="text-2xl md:text-5xl font-black pb-1 md:pb-2">
+            <h3 className="text-2xl md:text-4xl font-black pb-1 md:pb-2">
               MuseHub
             </h3>
-            <p className="text-lg md:text-xl uppercase">Museum booking app</p>
+            <p className="text-base md:text-xl uppercase">Museum booking app</p>
           </div>
         </div>
         <div
-          onClick={() => goTo("/projects/trisa")}
+          onClick={() => goTo("/projects/saas-dashboard")}
           className="aspect-square 
-                bg-[url('/images/projects/bg-project.png')] 
-                bg-cover bg-center 
+                bg-[#bfb2d3] 
+                bg-cover bg-center rounded-lg
                 flex flex-col overflow-hidden cursor-pointer transform transition-transform duration-300 ease-out hover:scale-102"
         >
           {/* Image Section */}
-          <div className="flex-1 flex items-center justify-center min-h-0">
+          <div className="flex-1 flex items-center justify-center p-6 md:p-10 min-h-0">
             <img
-              src="/images/projects/trisa.png"
-              alt="Trisa Dental"
+              src="/images/projects/saas_dashboard.png"
+              alt="SaaS Task Dashboard"
               className="max-h-full max-w-full object-contain"
             />
           </div>
 
           {/* Text Section */}
           <div className="text-secondary bg-white/20 px-4 md:px-8 py-3 md:py-6 shrink-0">
-            <h3 className="text-2xl md:text-5xl font-black pb-1 md:pb-2">
-              Trisa Dental
+            <h3 className="text-2xl md:text-4xl font-black pb-1 md:pb-2">
+              SaaS Task Dashboard
             </h3>
-            <p className="text-lg md:text-xl uppercase">
-              Accessibility study & Mobile UX Redesign
+            <p className="text-base md:text-xl uppercase">
+              AI-Generated Dashboard – UX Redesign
             </p>
           </div>
         </div>

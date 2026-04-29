@@ -18,7 +18,7 @@ const TrisaHero = () => {
             <img
               alt="Trisa app screenshot showing details"
               className="h-full w-full object-cover"
-              src="/images/projects/banner_trisa.png"
+              src="/images/projects/banner_saas_dashboard.png"
             />
           </div>
         </div>
