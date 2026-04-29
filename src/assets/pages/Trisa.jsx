@@ -1,10 +1,15 @@
 import React from "react";
+import TrisaHero from "../components/projects/trisa/TrisaHero";
+import TrisaDescription from "../components/projects/trisa/TrisaDescription";
+import TrisaCaseStudy from "../components/projects/trisa/TrisaCaseStudy";
 
 const Trisa = () => {
   return (
-    <div>
-      <h1>Trisa</h1>
-    </div>
+    <>
+      <TrisaHero />
+      <TrisaDescription />
+      <TrisaCaseStudy />
+    </>
   );
 };
 

@@ -34,34 +34,35 @@ const Projects = () => {
             <h3 className="text-2xl md:text-5xl font-black pb-1 md:pb-2">
               MuseHub
             </h3>
-            <p className="text-lg md:text-2xl uppercase">Museum booking app</p>
+            <p className="text-lg md:text-xl uppercase">Museum booking app</p>
           </div>
         </div>
-        {/* <Link to="Project/Trisa">
-          <div
-            className="aspect-square 
+        <div
+          onClick={() => goTo("/projects/trisa")}
+          className="aspect-square 
                 bg-[url('/images/projects/bg-project.png')] 
                 bg-cover bg-center 
-                flex flex-col overflow-hidden"
-          >
-            <div className="flex-1 flex items-center justify-center p-6 min-h-0">
-              <img
-                src="/images/projects/musehub.png"
-                alt="MuseHub"
-                className="max-h-full max-w-full object-contain"
-              />
-            </div>
-
-            <div className="text-secondary bg-white/20 px-4 md:px-8 py-3 md:py-6 shrink-0">
-              <h3 className="text-2xl md:text-5xl font-black pb-1 md:pb-2">
-                MuseHub
-              </h3>
-              <p className="text-lg md:text-2xl uppercase">
-                Museum booking app
-              </p>
-            </div>
+                flex flex-col overflow-hidden cursor-pointer transform transition-transform duration-300 ease-out hover:scale-102"
+        >
+          {/* Image Section */}
+          <div className="flex-1 flex items-center justify-center min-h-0">
+            <img
+              src="/images/projects/trisa.png"
+              alt="Trisa Dental"
+              className="max-h-full max-w-full object-contain"
+            />
           </div>
-        </Link> */}
+
+          {/* Text Section */}
+          <div className="text-secondary bg-white/20 px-4 md:px-8 py-3 md:py-6 shrink-0">
+            <h3 className="text-2xl md:text-5xl font-black pb-1 md:pb-2">
+              Trisa Dental
+            </h3>
+            <p className="text-lg md:text-xl uppercase">
+              Accessibility study & Mobile UX Redesign
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
