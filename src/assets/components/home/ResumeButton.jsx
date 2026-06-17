@@ -4,13 +4,8 @@ const ResumeButton = () => {
   const buttonRef = useRef(null);
 
   return (
-    // <button
-    //   ref={buttonRef}
-
-    //   className="group relative right-0 size-32 flex items-center justify-center transition-transform duration-300"
-    // >
     <a
-      href="https://drive.google.com/file/d/1d3ZE6w7_Fpux5K6Rj7FvuBWpi-47cVfX/view?usp=sharing"
+      href="https://drive.google.com/file/d/1GJCfORrzwnHno6i88ZJqMKwkc3gYPAsl/view?usp=sharing"
       target="_blank"
       rel="noopener noreferrer"
       ref={buttonRef}

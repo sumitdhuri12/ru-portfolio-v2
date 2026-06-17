@@ -4,33 +4,34 @@ import SkillItem from "../home/SkillItem";
 const SkillSection = () => {
   const skillsData = [
     {
-      title: "UX & Research",
+      title: "Frontend Development",
       skills: [
-        "User research and interviews",
-        "Personas & Journey mapping",
-        "Information architecture",
-        "Usability testing",
-        "Accessibility considerations",
+        "React.js",
+        "JavaScript (ES6+)",
+        "HTML5",
+        "CSS3",
+        "Responsive Design",
       ],
     },
     {
-      title: "UX & Interaction Design",
+      title: "React & UI Engineering",
       skills: [
-        "Wireframing & Prototyping",
-        "Design systems",
-        "Visual hierarchy & layout",
-        "Micro-interactions",
-        "Responsive design",
+        "Component Architecture",
+        "State Management",
+        "React Hooks",
+        "Context API",
+        "Reusable UI Components",
       ],
     },
     {
       title: "Tools & Production",
       skills: [
-        "Figma (Auto layout, components)",
         "HTML, CSS, JavaScript",
-        "Developer handoff",
+        "Figma (Auto layout, components)",
         "Design-to-code collaboration",
-        "ChatGPT, Gemini, Banani AI, Claude AI",
+        "ChatGPT",
+        "Gemini",
+        "Banani",
       ],
     },
   ];
@@ -46,7 +47,8 @@ const SkillSection = () => {
         </h2>
 
         <p className="font-extralight text-xl md:text-2xl mb-12 md:mb-16 max-w-4xl">
-          Focused on clarity, usability and building designs that ship.
+          Focused on building scalable, responsive, and high-performance web
+          applications.
         </p>
         <div className="grid grid-cols-1 md:grid-flow-col md:auto-cols-max w-full gap-6 md:gap-16">
           {skillsData.map((item, index) => (

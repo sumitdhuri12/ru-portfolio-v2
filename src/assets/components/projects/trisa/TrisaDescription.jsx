@@ -10,7 +10,7 @@ const TrisaDescription = () => {
             Duration
           </h2>
           <p className="text-xl md:text-2xl font-light leading-relaxed">
-            2 Hours
+            1 Week
           </p>
         </div>
 
