@@ -9,10 +9,10 @@ const About = () => {
           About me
         </h5>
         <p className="text-xl md:text-3xl font-semibold uppercase md:leading-11.25">
-          I design research-driven experiences that solve real user problems.
-          <br />
-          With a web development background, I create designs that translate
-          smoothly into production.
+          I develop high-performance web applications that balance
+          functionality, usability, and design. Combining React development with
+          a UX-driven mindset, I transform ideas into seamless digital
+          experiences.
         </p>
       </div>
       <div className="flex justify-center md:justify-end pr-0 md:pr-10 pt-10">
