@@ -13,6 +13,34 @@ const Projects = () => {
         <span className="font-bold">SELECTED</span> PROJECTS
       </h4>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 ">
+        {/* //////////////////////---------------EntityMate---------------////////////////////// */}
+        <div
+          onClick={() => goTo("/projects/entitymate")}
+          className="aspect-square 
+                bg-[#C7CEE6] 
+                bg-cover bg-center rounded-lg
+                flex flex-col overflow-hidden cursor-pointer transform transition-transform duration-300 ease-out hover:scale-102"
+        >
+          {/* Image Section */}
+          <div className="flex-1 flex items-center justify-center p-0 min-h-0">
+            <img
+              src="/images/projects/banner_entitymate.png"
+              alt="EntityMate"
+              className="max-h-full max-w-full object-contain"
+            />
+          </div>
+
+          {/* Text Section */}
+          <div className="text-secondary bg-white/20 px-4 md:px-8 py-3 md:py-6 shrink-0">
+            <h3 className="text-2xl md:text-4xl font-black pb-1 md:pb-2">
+              EntityMate
+            </h3>
+            <p className="text-base md:text-xl uppercase">
+              ASCII/HTML Entity Converter
+            </p>
+          </div>
+        </div>
+        {/* //////////////////////---------------Portfolio Website---------------////////////////////// */}
         <a
           href="https://portfolio-content-writer.vercel.app/"
           target="_blank"
@@ -44,7 +72,7 @@ const Projects = () => {
             </div>
           </div>
         </a>
-
+        {/* //////////////////////---------------Saas Task Dashboard---------------////////////////////// */}
         <div
           onClick={() => goTo("/projects/saas-dashboard")}
           className="aspect-square 
@@ -71,7 +99,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
-
+        {/* //////////////////////---------------Musehub---------------////////////////////// */}
         <div
           onClick={() => goTo("/projects/musehub")}
           className="aspect-square 

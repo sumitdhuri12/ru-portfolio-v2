@@ -3,6 +3,7 @@ import Home from "./assets/pages/Home";
 import MuseHub from "./assets/pages/MuseHub";
 import PageLayout from "./assets/components/layout/PageLayout";
 import Trisa from "./assets/pages/Trisa";
+import EntityMate from "./assets/pages/EntityMate";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="projects/musehub" element={<MuseHub />} />
         <Route path="projects/saas-dashboard" element={<Trisa />} />
+        <Route path="projects/entitymate" element={<EntityMate />} />
       </Route>
     </Routes>
   );
